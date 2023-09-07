@@ -1,17 +1,26 @@
-# Simple blockchain
+# Blockchain Java Implementation
 
-An exercise to help individuals understand the basics of blockchain.
+This is a simple Java implementation of a blockchain data structure with supporting classes and JUnit tests. The project consists of three main classes:
 
-### The Exercise
+1. **Block.java**: This class represents a single block within the blockchain. Each block contains a previous hash, a timestamp, a nonce, and a hash.
 
-The exercise - download the codebase and get the tests to pass!
+2. **Blockchain.java**: This class implements the blockchain itself, where blocks are added and validated. It also contains methods for mining new blocks.
 
-- Start with the hash implementation (previousHash + timestamp + nonce).
-- Move to isEmpty and Size.
-- Ensure the negative tests pass!
+3. **BlockchainTest.java**: This is a JUnit test class that tests the functionality of the `Blockchain` class and its related methods.
 
-Hope you enjoy the exercise!
+## Getting Started
 
-Thanks, @barinek
+To get started with this project, follow the steps below:
 
-© 2022 by Continuum Collective, Inc. All rights reserved.
+### Prerequisites
+
+- Java Development Kit (JDK) installed on your system.
+- Gradle (for building and running tests) installed on your system.
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   $ git clone https://github.com/yourusername/blockchain-java.git
+   $ cd blockchain-java
